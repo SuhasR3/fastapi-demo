@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+uvicorn.log
+
+# Environment config / secrets
+.env
+.env.*.local
+secrets/
+instance/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# pyenv (optional, see note)
+# .python-version
+
+# Misc
+*.sqlite3
